@@ -454,7 +454,7 @@ class Mp3Info
           end
         end
       end
-      File.rename(tempfile_name, @filename_or_io)
+      File.rename(tempfile_name, @filename)
     end
   end
 
